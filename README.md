@@ -1,2 +1,2 @@
-# menu-isometric
+# Menu isométrico
 Um menu isométrico com hover effect
