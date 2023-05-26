@@ -1,2 +1,2 @@
 # Menu isométrico
-Um menu isométrico com hover effect
+Um menu isométrico contendo 10 projetos criativos e interativos.
