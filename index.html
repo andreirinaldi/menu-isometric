@@ -1,33 +1,512 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Menu isométrico</title>
+    <title>Projeto Criatividade</title>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/fcef97512b.js" crossorigin="anonymous"></script>
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
 
 <body>
-    <ul class="menu1">
-        <li style="--i:6;"><a href="#">Home</a></li>
-        <li style="--i:5;"><a href="#">About</a></li>
-        <li style="--i:4;"><a href="#">Services</a></li>
-        <li style="--i:3;"><a href="#">Portfolio</a></li>
-        <li style="--i:2;"><a href="#">Our Team</a></li>
-        <li style="--i:1;"><a href="#">Contact</a></li>
+    <ul class="menu">
+        <li style="--i:11;" class="botao"><a href="#">Projetos</a></li>
+        <li style="--i:10;" class="botao"><a href="#">3D Coverflow Effect</a></li>
+        <li style="--i:9;" class="botao"><a href="#">Textmonial Cards</a></li>
+        <li style="--i:8;" class="botao"><a href="#">Gradient Border Cards</a></li>
+        <li style="--i:7;" class="botao"><a href="#">Glassmorphism Icon Effect</a></li>
+        <li style="--i:6;" class="botao"><a href="#">Dark and Light Mode</a></li>
+        <li style="--i:5;" class="botao"><a href="#">Futuristic Animated Cards</a></li>
+        <li style="--i:4;" class="botao"><a href="#">Glassmorphism Card Effect</a></li>
+        <li style="--i:3;" class="botao"><a href="#">Heroes - Resposive Website</a></li>
+        <li style="--i:2;" class="botao"><a href="#">Fruits - Website Bg Slider</a></li>
+        <li style="--i:1;" class="botao"><a href="#">Button Hover Effect</a></li>
     </ul>
 
-    <ul class="menu2">
-        <li style="--i:6;"><a href="">Página Inicial</a></li>
-        <li style="--i:5;"><a href="">Sobre</a></li>
-        <li style="--i:4;"><a href="">Serviços</a></li>
-        <li style="--i:3;"><a href="">Portfólio</a></li>
-        <li style="--i:2;"><a href="">Equipe</a></li>
-        <li style="--i:1;"><a href="">Contato</a></li>
-    </ul>
+    <section class="projeto msg active">
+        <h1>Bem Vindo!</h1>
+        <h3>Selecione uma das opções do menu</h3>
+        <i class="fa-solid fa-arrow-left-long"></i>
+    </section>
+
+    <section class="projeto layoutUm">
+        <!-- Projeto 1 - 3D Coverflow Effect -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide layoutUm">
+                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                </div>
+                <div class="swiper-slide layoutUm">
+                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                </div>
+                <div class="swiper-slide layoutUm">
+                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                </div>
+                <div class="swiper-slide layoutUm">
+                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                </div>
+                <div class="swiper-slide layoutUm">
+                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                </div>
+                <div class="swiper-slide layoutUm">
+                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                </div>
+                <div class="swiper-slide layoutUm">
+                    <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                </div>
+                <div class="swiper-slide layoutUm">
+                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                </div>
+                <div class="swiper-slide layoutUm">
+                    <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="projeto layoutDois">
+        <!-- Projeto 2 - Textmonial Cards -->
+        <div class="swipero mySwip">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide layoutDois">
+                    <div class="texto">
+                        <img src="img/quote.png" class="quote">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                                Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis. Cras lobortis eleifend
+                                congue at vestibulum vitae, commodo non erat. Suspendisse ultrices risus lorem, ac
+                                posuere
+                                orci congue vitae.</p>
+                            <div class="detalhes">
+                                <div class="imgbox">
+                                    <img src="img/img1.jpg">
+                                </div>
+                                <h3>Quem sou eu?<br><span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide layoutDois">
+                    <div class="texto">
+                        <img src="img/quote.png" class="quote">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                                Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis. Cras lobortis eleifend
+                                congue at vestibulum vitae, commodo non erat. Suspendisse ultrices risus lorem, ac
+                                posuere
+                                orci congue vitae.</p>
+                            <div class="detalhes">
+                                <div class="imgbox">
+                                    <img src="img/img2.jpg">
+                                </div>
+                                <h3>Quem sou eu?<br><span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide layoutDois">
+                    <div class="texto">
+                        <img src="img/quote.png" class="quote">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                                Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis. Cras lobortis eleifend
+                                congue at vestibulum vitae, commodo non erat. Suspendisse ultrices risus lorem, ac
+                                posuere
+                                orci congue vitae.</p>
+                            <div class="detalhes">
+                                <div class="imgbox">
+                                    <img src="img/img3.jpg">
+                                </div>
+                                <h3>Quem sou eu?<br><span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide layoutDois">
+                    <div class="texto">
+                        <img src="img/quote.png" class="quote">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                                Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis. Cras lobortis eleifend
+                                congue at vestibulum vitae, commodo non erat. Suspendisse ultrices risus lorem, ac
+                                posuere
+                                orci congue vitae.</p>
+                            <div class="detalhes">
+                                <div class="imgbox">
+                                    <img src="img/img4.jpg">
+                                </div>
+                                <h3>Quem sou eu?<br><span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide layoutDois">
+                    <div class="texto">
+                        <img src="img/quote.png" class="quote">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                                Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis. Cras lobortis eleifend
+                                congue at vestibulum vitae, commodo non erat. Suspendisse ultrices risus lorem, ac
+                                posuere
+                                orci congue vitae.</p>
+                            <div class="detalhes">
+                                <div class="imgbox">
+                                    <img src="img/img5.jpg">
+                                </div>
+                                <h3>Quem sou eu?<br><span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide layoutDois">
+                    <div class="texto">
+                        <img src="img/quote.png" class="quote">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                                Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis. Cras lobortis eleifend
+                                congue at vestibulum vitae, commodo non erat. Suspendisse ultrices risus lorem, ac
+                                posuere
+                                orci congue vitae.</p>
+                            <div class="detalhes">
+                                <div class="imgbox">
+                                    <img src="img/img6.jpg">
+                                </div>
+                                <h3>Quem sou eu?<br><span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide layoutDois">
+                    <div class="texto">
+                        <img src="img/quote.png" class="quote">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                                Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis. Cras lobortis eleifend
+                                congue at vestibulum vitae, commodo non erat. Suspendisse ultrices risus lorem, ac
+                                posuere
+                                orci congue vitae.</p>
+                            <div class="detalhes">
+                                <div class="imgbox">
+                                    <img src="img/img7.jpg">
+                                </div>
+                                <h3>Quem sou eu?<br><span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projeto 3 - Gradient Border Cards -->
+    <section class="projeto layoutTres">
+        <div class="container">
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Card Um.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                        Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis.</p>
+                    <a href="#">Ler mais...</a>
+                </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Card Dois.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                        Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis.</p>
+                    <a href="#">Ler mais...</a>
+                </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Card Três.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae euismod augue.
+                        Aenean laoreet massa nulla, eu ullamcorper diam condimentum quis.</p>
+                    <a href="#">Ler mais...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projeto 4 - Glassmorphism Icon Effect -->
+    <section class="projeto layoutQuatro" id="click">
+        <div class="cor"></div>
+        <div class="cor"></div>
+        <div class="cor"></div>
+        <ul>
+            <li><a href="#click"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#click"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#click"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#click"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#click"><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ul>
+    </section>
+
+    <!-- Projeto 5 - Dark and Light Mode -->
+    <section class="projeto layoutCinco" id="click2">
+        <div class="toggle"></div>
+        <div class="caixa">
+            <div class="cartao">
+                <div class="box">
+                    <div class="conteudo">
+                        <div class="icone"><i class="fa-sharp fa-solid fa-paper-plane"></i></div>
+                        <h3>Basic</h3>
+                        <h4><sup>$</sup>25</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>10 GB Space</li>
+                            <li><i class="fa-solid fa-check"></i>3 Domain Names</li>
+                            <li><i class="fa-solid fa-check"></i>10 Email Address</li>
+                            <li><i class="fa-solid fa-xmark"></i>Live Suport</li>
+                        </ul>
+                        <a href="#click2">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cartao">
+                <div class="box">
+                    <div class="conteudo">
+                        <div class="icone"><i class="fa-solid fa-plane-departure"></i></div>
+                        <h3>Standart</h3>
+                        <h4><sup>$</sup>50</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>20 GB Space</li>
+                            <li><i class="fa-solid fa-check"></i>5 Domain Names</li>
+                            <li><i class="fa-solid fa-check"></i>20 Email Address</li>
+                            <li><i class="fa-solid fa-xmark"></i>Live Suport</li>
+                        </ul>
+                        <a href="#click2">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cartao">
+                <div class="box">
+                    <div class="conteudo">
+                        <div class="icone"><i class="fa-solid fa-rocket"></i></div>
+                        <h3>Premium</h3>
+                        <h4><sup>$</sup>100</h4>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>50 GB Space</li>
+                            <li><i class="fa-solid fa-check"></i>10 Domain Names</li>
+                            <li><i class="fa-solid fa-check"></i>50 Email Address</li>
+                            <li><i class="fa-solid fa-check"></i>Live Suport</li>
+                        </ul>
+                        <a href="#click2">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projeto 6 - Futuristic Animated Card -->
+    <section class="projeto layoutSeis">
+        <div class="containerFuture">
+            <div class="boxFuture" style="--i:0;">
+                <i></i>
+                <div class="contentFuture">
+                    <img src="img/futuro-01.jpg">
+                    <h2>Tecnologia<br></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris molestie euismod orci, vitae ullamcorper est iaculis ut.
+                        Integer ullamcorper felis eget tortor consequat, nec posuere erat lobortis.</p>
+                    <span>Front-end Designer</span>
+                    <a href="#">Contrate-me</a>
+                </div>
+            </div>
+            <div class="boxFuture" style="--i:1;">
+                <i></i>
+                <div class="contentFuture">
+                    <img src="img/futuro-02.jpg">
+                    <h2>Realidade Virtual<br></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris molestie euismod orci, vitae ullamcorper est iaculis ut.
+                        Integer ullamcorper felis eget tortor consequat, nec posuere erat lobortis.</p>
+                    <span>Front-end Designer</span>
+                    <a href="#">Contrate-me</a>
+                </div>
+            </div>
+            <div class="boxFuture" style="--i:2;">
+                <i></i>
+                <div class="contentFuture">
+                    <img src="img/futuro-03.jpg">
+                    <h2>Futuro<br></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris molestie euismod orci, vitae ullamcorper est iaculis ut.
+                        Integer ullamcorper felis eget tortor consequat, nec posuere erat lobortis.</p>
+                    <span>Front-end Designer</span>
+                    <a href="#">Contrate-me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projeto 7 - Glassmorphism Card Effect -->
+    <section class="projeto layoutSete">
+        <div class="container2">
+            <div class="card">
+                <div class="imgbx">
+                    <img src="img/sketch.png">
+                </div>
+                <div class="content2">
+                    <div>
+                        <h3>Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus quam id placerat semper.
+                         Curabitur sit amet lectus vel nunc interdum blandit.</p>
+                        <a href="#">Ler mais...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="img/data.png">
+                </div>
+                <div class="content2">
+                    <div>
+                        <h3>Code</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus quam id placerat semper.
+                         Curabitur sit amet lectus vel nunc interdum blandit.</p>
+                        <a href="#">Ler mais...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="img/startup.png">
+                </div>
+                <div class="content2">
+                    <div>
+                        <h3>Launch</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus quam id placerat semper.
+                         Curabitur sit amet lectus vel nunc interdum blandit.</p>
+                        <a href="#">Ler mais...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgbx">
+                    <img src="img/save-money.png">
+                </div>
+                <div class="content2">
+                    <div>
+                        <h3>Earn</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam luctus quam id placerat semper.
+                         Curabitur sit amet lectus vel nunc interdum blandit.</p>
+                        <a href="#">Ler mais...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projeto 8 - Heroes - Resposive Website -->
+    <section class="projeto layoutOito">
+		<div class="cabecalho">
+			<a href="#" class="logo">Heroes</a>
+			<div class="toggle" onclick="toggleMenu();"></div>
+			<ul class="navigation">
+				<li><a href="#" style="--u:1;">Home</a></li>
+				<li><a href="#" style="--u:2;">Characters</a></li>
+				<li><a href="#" style="--u:3;">Movies</a></li>
+				<li><a href="#" style="--u:4;">Games</a></li>
+				<li><a href="#" style="--u:5;">More</a></li>
+			</ul>
+		</div>
+		<div class="container3">
+			<div class="box3" style="--u:3;">
+				<div class="imgBx">
+					<img src="img/img10.jpg">
+				</div>
+			</div>
+			<div class="box3" style="--u:4;">
+				<div class="imgBx">
+					<img src="img/img9.jpg">
+				</div>
+			</div>
+			<div class="box3" style="--u:5;">
+				<div class="imgBx">
+					<img src="img/img8.jpg">
+				</div>
+			</div>
+			<div class="box3" style="--u:6;">
+				<div class="imgBx">
+					<img src="img/img11.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<ul class="sci">
+				<li><a href="#" style="--u:9"><img src="img/facebook.png">Facebook</a></li>
+				<li><a href="#" style="--u:8"><img src="img/twitter.png">Twitter</a></li>
+				<li><a href="#" style="--u:7"><img src="img/instagram.png">Instagram</a></li>
+			</ul>
+			<p class="copyrightText">Imagens: uhdpaper.com</p>
+		</div>
+    </section>
+
+    <!-- Projeto 9 - Fruits - Website Image Slider -->
+    <section class="projeto layoutNove">
+		<div class="bg"></div>
+		<header>
+			<a href="#" class="logo2">Fruits</a>
+			<div class="toggle"></div>
+			<ul class="navgate">
+				<li><a href="#" class="ativo">Home</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Novidades</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</header>
+		<div class="content2">
+			<div class="textBox">
+				<h2>+ Frutas + Saúde</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Nulla ut augue in neque fringilla ullamcorper. Quisque pretium erat non lacus consectetur, in accumsan libero dignissim. Aenean at dolor velit. Donec sit amet blandit arcu. Aliquam et scelerisque justo. Morbi mollis, justo ut sagittis porttitor, neque libero accumsan felis, eget pretium nisl odio eget metus.</p>
+                <a href="#">Ler mais...</a>
+			</div>
+			<div class="imgBox">
+				<img src="img/apple.png" class="frutas">
+			</div>
+		</div>
+		<ul class="thumb">
+			<li data-text="Maçã" class="ativo"><img src="img/apple.png" onclick="imgSlider('img/apple.png'); trocarBgColor('#fc4a55')"></li>
+			<li data-text="Manga"><img src="img/mango.png" onclick="imgSlider('img/mango.png'); trocarBgColor('#ffcc02')"></li>
+			<li data-text="Melancia"><img src="img/watermelon.png" onclick="imgSlider('img/watermelon.png'); trocarBgColor('#92ba3c')"></li>
+			<li data-text="Pitaya"><img src="img/dragonFruits.png" onclick="imgSlider('img/dragonFruits.png'); trocarBgColor('#fb6cb2')"></li>
+			<li data-text="Abacaxi"><img src="img/pineApple.png" onclick="imgSlider('img/pineApple.png'); trocarBgColor('#ffb42b')"></li>
+		</ul>
+		<ul class="lateral">
+			<li><a href="#"><img src="img/facebook2.png"></a></li>
+			<li><a href="#"><img src="img/twitter2.png"></a></li>
+			<li><a href="#"><img src="img/instagram2.png"></a></li>
+		</ul>
+    </section>
+    
+    <!-- Projeto 10 - Button Hover Effect -->
+    <section class="projeto layoutDez" id="click3">
+        <a href="#click3" style="--clr:#1e9bff"><span>Button</span><i></i></a>
+        <a href="#click3" style="--clr:#ff1867"><span>Button</span><i></i></a>
+        <a href="#click3" style="--clr:#6eff3e"><span>Button</span><i></i></a>
+    </section>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- Funcionalidades -->
+<script src="projetos.js"></script>
+
 </body>
+
 </html>
